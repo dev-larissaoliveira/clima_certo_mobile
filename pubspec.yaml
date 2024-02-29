@@ -1,0 +1,43 @@
+name: clima_certo_639
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^6.3.2
+  dio: ^5.4.1
+  flutter_native_splash: ^2.3.11
+  image_picker: ^1.0.7
+  intl: ^0.19.0
+  mobx: ^2.3.0+1
+  flutter_mobx: ^2.2.0+2
+  http: ^1.2.0
+  google_sign_in: ^6.2.1
+  flutter_secure_storage: ^4.2.1
+  geolocator: ^11.0.0
+
+flutter_native_splash:
+  color: "#3f51b5"
+  android: true
+  ios: true
+  image: "assets/app/splash.png"
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.6.0+1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/app/
+
